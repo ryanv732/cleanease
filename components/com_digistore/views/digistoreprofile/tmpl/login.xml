@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE_PROFILE_LOGIN">
+		<message>
+			<![CDATA[DIGISTORE_PROFILE_LOGIN TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE_PROFILE_LOGIN</name>
+		<description>DIGISTORE_PROFILE_LOGIN DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

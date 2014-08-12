@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE LICENSES SHOW PACKAGE" hidden="true">
+		<message>
+			<![CDATA[DIGISTORE LICENSES SHOW PACKAGE TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE LICENSES SHOW PACKAGE</name>
+		<description>DIGISTORE LICENSES SHOW PACKAGE DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE LICENSES EDIT FORM" hidden="true">
+		<message>
+			<![CDATA[DIGISTORE LICENSES EDIT FORM TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE LICENSES EDIT FORM</name>
+		<description>DIGISTORE LICENSES EDIT FORM DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

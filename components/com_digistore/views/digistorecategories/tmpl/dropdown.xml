@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE_CATEGORIES_DROPDOWN">
+		<message>
+			<![CDATA[DIGISTORE_CATEGORIES_DROPDOWN TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE_CATEGORIES_DROPDOWN</name>
+		<description>DIGISTORE_CATEGORIES_DROPDOWN DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<metadata>
+	<layout title="DIGISTORE PRODUCTS VERT">
+		<message>
+			<![CDATA[DIGISTORE PRODUCTS VERT TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE PRODUCTS VERT</name>
+		<description>DIGISTORE PRODUCTS VERT DESC</description>
+		<url addpath="/administrator/components/com_digistore/elements">
+			<param name="cid" type="digistorecategories" scope="com_digistore" default="" label="Category ID" description="Type Category ID From compoenent DigiStore" />
+		</url>
+	</state>
+</metadata>
+-->
+<metadata>
+	<layout hidden="true" />
+</metadata>

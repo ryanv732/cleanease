@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE_PRODUCTS_LIST">
+		<message>
+			<![CDATA[DIGISTORE_PRODUCTS_LIST_MULTI_TIP]]>
+		</message>
+	</layout>
+
+	<fields name="params" addfieldpath="/administrator/components/com_digistore/elements">
+		<fieldset name="basic" label="COM_MENUS_BASIC_FIELDSET_LABEL">
+
+		<field name="category_id"
+				type="digicategslist"
+				label="Category ID"
+				description="Type Category ID From compoenent DigiStore"
+				class="inputbox required"/>
+		</fieldset>
+	</fields>
+</metadata>

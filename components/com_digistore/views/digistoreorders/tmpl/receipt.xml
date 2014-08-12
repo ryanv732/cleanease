@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE ORDER RECEIPT" hidden="true">
+		<message>
+			<![CDATA[DIGISTORE ORDER RECEIPT TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE ORDER RECEIPT</name>
+		<description>DIGISTORE ORDER RECEIPT DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

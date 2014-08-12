@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE LICENSES DOMAIN" hidden="true">
+		<message>
+			<![CDATA[DIGISTORE LICENSES DOMAIN TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE LICENSES DOMAIN</name>
+		<description>DIGISTORE LICENSES DOMAIN DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

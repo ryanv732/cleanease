@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE_CART">
+		<message>
+			<![CDATA[DIGISTORE_CART TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE_CART</name>
+		<description>DIGISTORE_CART DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

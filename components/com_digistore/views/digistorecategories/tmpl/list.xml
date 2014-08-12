@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE_CATEGORIES_LIST">
+		<message>
+			<![CDATA[DIGISTORE_CATEGORIES_LIST TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE_CATEGORIES_LIST</name>
+		<description>DIGISTORE_CATEGORIES_LIST DESC</description>
+		<url addpath="/administrator/components/com_digistore/elements">
+			<param name="cid" type="digistorecategories" scope="com_digistore" default="" label="Category ID" description="Type Category ID From compoenent DigiStore" />
+		</url>
+	</state>
+</metadata>

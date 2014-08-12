@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="profile">
+		<fieldset name="profile"
+			label="PLG_USER_DIGISTORE_SLIDER_LABEL"
+		>
+			<field
+				name="address1"
+				type="text"
+				class="form-control"
+				id="address1"
+				description="PLG_USER_DIGISTORE_FIELD_ADDRESS1_DESC"
+				filter="string"
+				label="PLG_USER_DIGISTORE_FIELD_ADDRESS1_LABEL"
+				size="30"
+			/>
+
+			<field
+				name="address2"
+				type="text"
+				class="form-control"
+				id="address2"
+				description="PLG_USER_DIGISTORE_FIELD_ADDRESS2_DESC"
+				filter="string"
+				label="PLG_USER_DIGISTORE_FIELD_ADDRESS2_LABEL"
+				size="30"
+			/>
+
+			<field
+				name="city"
+				type="text"
+				class="form-control"
+				id="city"
+				description="PLG_USER_DIGISTORE_FIELD_CITY_DESC"
+				filter="string"
+				label="PLG_USER_DIGISTORE_FIELD_CITY_LABEL"
+				size="30"
+			/>
+
+			<field 
+				name="region"
+				type="text"
+				class="form-control"
+				id="region"
+				description="PLG_USER_DIGISTORE_FIELD_REGION_DESC"
+				filter="string"
+				label="PLG_USER_DIGISTORE_FIELD_REGION_LABEL"
+				size="30"
+			/>
+
+			<field addfieldpath="plugins/user/digistore"
+				name="country"
+				type="country"
+				class="form-control"
+				id="country"
+				default=""
+				description="PLG_USER_DIGISTORE_FIELD_COUNTRY_DESC"
+				filter="string"
+				label="PLG_USER_DIGISTORE_FIELD_COUNTRY_LABEL"
+			/>
+
+			<field
+				name="postal_code"
+				type="text"
+				class="form-control"
+				id="postal_code"
+				description="PLG_USER_DIGISTORE_FIELD_POSTAL_CODE_DESC"
+				filter="string"
+				label="PLG_USER_DIGISTORE_FIELD_POSTAL_CODE_LABEL"
+				size="30"
+			/>
+
+			<field
+				name="phone"
+				type="tel"
+				class="form-control"
+				id="phone"
+				description="PLG_USER_DIGISTORE_FIELD_PHONE_DESC"
+				filter="string"
+				label="PLG_USER_DIGISTORE_FIELD_PHONE_LABEL"
+				size="30"
+			/>
+
+			<field
+				name="website"
+				type="url"
+				class="form-control"
+				id="website"
+				description="PLG_USER_DIGISTORE_FIELD_WEB_SITE_DESC"
+				filter="url"
+				label="PLG_USER_DIGISTORE_FIELD_WEB_SITE_LABEL"
+				size="30"
+			/>
+			<field
+				name="favoritebook"
+				type="text"
+				class="form-control"
+				description="PLG_USER_DIGISTORE_FIELD_FAVORITE_BOOK_DESC"
+				filter="string"
+				label="PLG_USER_DIGISTORE_FIELD_FAVORITE_BOOK_LABEL"
+				size="30"
+			/>
+			<field
+				name="aboutme"
+				type="textarea"
+				class="form-control"
+				description="PLG_USER_DIGISTORE_FIELD_ABOUT_ME_DESC"
+				label="PLG_USER_DIGISTORE_FIELD_ABOUT_ME_LABEL"
+				cols="30"
+				rows="5"
+				filter="safehtml"
+			/>
+			<field name="spacer" type="hidden" class="text"
+			label="PLG_USER_DIGISTORE_SPACER_DOB"
+			/>
+			<field
+				name="dob"
+				type="calendar"
+				label="PLG_USER_DIGISTORE_FIELD_DOB_LABEL"
+				description="PLG_USER_DIGISTORE_FIELD_DOB_DESC"
+				format="%Y-%m-%d"
+			/>
+			<field
+				name="tos"
+				type="tos"
+				value="1"
+				default=""
+				label="PLG_USER_DIGISTORE_FIELD_TOS_LABEL"
+				description="PLG_USER_DIGISTORE_FIELD_TOS_DESC" />
+		</fieldset>
+	</fields>
+</form>

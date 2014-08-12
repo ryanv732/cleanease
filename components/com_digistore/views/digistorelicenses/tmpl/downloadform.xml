@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE LICENSES DOWNLOAD" hidden="true">
+		<message>
+			<![CDATA[DIGISTORE LICENSES DOWNLOAD TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE LICENSES DOWNLOAD</name>
+		<description>DIGISTORE LICENSES DOWNLOAD DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

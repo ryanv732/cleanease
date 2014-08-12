@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+		<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" filter="rules" component="com_digistore" section="component">
+			<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+			<action name="digistore.settings" title="VIEWDSADMINSETTINGS" description="JACTION_SETTINGS_DESC" />
+			<action name="digistore.categories" title="VIEWDSADMINCATEGORIES" description="JACTION_CATEGORIES_DESC" />
+			<action name="digistore.products" title="VIEWDSADMINPRODUCTS" description="JACTION_PRODUCTS_DESC" />
+			<action name="digistore.customers" title="VIEWDSADMINCUSTOMERS" description="JACTION_CUSTOMERS_DESC" />
+			<action name="digistore.orders" title="VIEWDSADMINORDERS" description="JACTION_ORDERS_DESC" />
+			<action name="digistore.licenses" title="VIEWDSADMINLICENCES" description="JACTION_LICENSES_DESC" />
+			<action name="digistore.languages" title="VIEWTREELANGUAGES" description="JACTION_LANGUAGES_DESC" />
+			<action name="digistore.promocodes" title="VIEWTREEPROMO" description="JACTION_PROMOCODES_DESC" />
+			<action name="digistore.plans" title="VIEWTREEPLANS" description="JACTION_PLANS_DESC" />
+			<action name="digistore.autoresponders" title="VIEWTREEEMAILREMINDER" description="JACTION_AUTORESPONDERS_DESC" />
+			<action name="digistore.logs" title="VIEWTREELOGS" description="JACTION_LOGS_DESC" />
+			<action name="digistore.taxes" title="VIEWCONFIGTAX" description="JACTION_TAXES_DESC" />
+			<action name="digistore.stats" title="VIEWDSADMINSTATS" description="JACTION_STATS_DESC" />
+		</field>
+	</fieldset>
+</config>

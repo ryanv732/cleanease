@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+	<name>COM_DIGISTORE</name>
+	<creationDate>Oct 2013</creationDate>
+	<author>foobla.com</author>
+	<authorEmail>info@foobla.com</authorEmail>
+	<authorUrl>www.foobla.com</authorUrl>
+	<copyright>Copyright (C) 2013 foobla.com.</copyright>
+	<license>GPL/GNU</license>
+	<version>3.1.1b9</version>
+
+	<install folder="admin">
+		<sql>
+			<file charset="utf8" driver="mysql">sql/install.sql</file>
+		</sql>
+	</install>
+
+	<uninstall folder="admin">
+		<sql>
+			<file charset="utf8" driver="mysql">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>
+
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>router.php</filename>
+		<filename>controller.php</filename>
+		<filename>digistore.php</filename>
+		<folder>assets</folder>
+		<folder>controllers</folder>
+		<folder>download</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<folder>tables</folder>
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.com_digistore.ini</language>
+	</languages>
+
+	<administration>
+		<menu img="components/com_digistore/assets/images/icons/small/digistore_logo.png">COM_DIGISTORE</menu>
+		<files folder="admin">
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>elements</folder>
+			<folder>extras</folder>
+			<folder>helpers</folder>
+			<folder>html</folder>
+			<folder>libs</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>upgrade</folder>
+			<folder>views</folder>
+			<filename>config.xml</filename>
+			<filename>digistore.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">en-GB.com_digistore.ini</language>
+			<language tag="en-GB">en-GB.com_digistore.sys.ini</language>
+		</languages>
+	</administration>
+
+	<scriptfile>script.php</scriptfile>
+	
+	<updateservers>
+		<server type="extension" priority="2" name="DigiStore Updates">http://foobla.com/updates/digistore.xml</server>
+	</updateservers>
+</extension>

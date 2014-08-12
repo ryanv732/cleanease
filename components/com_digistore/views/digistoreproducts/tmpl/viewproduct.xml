@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+<metadata>
+	<layout title="DIGISTORE PRODUCTS VIEWPRODUCT">
+		<message>
+			<![CDATA[DIGISTORE PRODUCTS VIEWPRODUCT TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE PRODUCTS VIEWPRODUCT</name>
+		<description>DIGISTORE PRODUCTS VIEWPRODUCT DESC</description>
+		<url addpath="/administrator/components/com_digistore/elements">
+			<param name="cid" type="digistorecategories" scope="com_digistore" default="" label="Category ID" description="Type Category ID From compoenent DigiStore" />
+			<param name="pid" type="digistoreproducts" scope="com_digistore" default="" label="Product ID" description="Type Product ID From compoenent DigiStore" />
+		</url>
+	</state>
+</metadata>
+-->
+<metadata>
+	<layout hidden="true" />
+</metadata>

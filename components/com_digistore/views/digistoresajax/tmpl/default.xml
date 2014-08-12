@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="DIGISTORE SAJAX">
+		<message>
+			<![CDATA[DIGISTORE SAJAX TIP]]>
+		</message>
+	</layout>
+	<state>
+		<name>DIGISTORE SAJAX</name>
+		<description>DIGISTORE SAJAX DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>
